@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="https://use.fontawesome.com/releases/v5.06/js/all.js"></script>
+    <title>کافه مهربان</title>
+    <link rel="icon" type="image/svg" href="images/icon.svg" />
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="container">
+            <a class="logo" href="index.html">Learn<span>Cooking</span></a>
+
+            <img id="mobile-cta" class="mobile-menu" src="images/menu1.svg" alt="Open Navigation">
+
+            <nav>
+                <img id="mobile-exit" class="mobile-menu-exit" src="images/exit6.svg" alt="Close Navigation">
+
+                <ul class="primary-nav">
+                    <li class="current"><a href="index.html">صفحه اصلی</a></li>
+                    <li><a href="about.html">درباره ما</a></li>
+                    <li><a href="#">خرید</a></li>
+                    <li><a href="gallery.html">گالری عکس</a></li>
+                </ul>
+
+                <ul class="secondary-nav">
+                    <li><a href="#contact">تماس با ما</a></li>
+                    <li class="GO-premium-cta"><a href="sign up.html">ثبت نام/عضویت</a></li>
+                    <div class="search-box">
+                        <input class="search-txt" type="text" name="" placeholder="Type to search">
+                        <a class="search-btn" href="#">
+                    <i class="fas fa-search"></i>
+                        </a>
+                    </div>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+
+
+    <section class="hero">
+        <div class="container">
+            <div class="left-col">
+                <p class="subhead">I's Nitty &amp; Gritty</p>
+                <h1>هنر آشپزی با کافه مهربان</h1>
+
+                <div class="hero-cta">
+                    <a href="#" class="primary-cta">Try For Free</a>
+                    <a href="#" class="watch-video-cta">
+                        <img src="images/watch.svg" alt="watch a video">Watch a video
+                    </a>
+                </div>
+            </div>
+
+            <img src="images/illustration.svg" class="heer-img" alt="Illustration">
+        </div>
+    </section>
+
+    <section class="features-section">
+        <div class="container">
+            <ul class="features-list">
+                <li>Unlimited Tasks</li>
+                <li>SMS Tasks Reminders</li>
+                <li>Confetti Explosions upon Task Complitions</li>
+                <li>Social Media Announcements</li>
+                <li>Real Time Collaboration</li>
+                <li>Other Aesome feachers</li>
+            </ul>
+
+            <img src="images/man holding phone.jpg" alt="Man holding phone">
+        </div>
+    </section>
+
+    <section class="testimonials-section">
+        <div class="container">
+            <ul>
+                <li>
+                    <img src="images/photo_2021-07-07_13-22-47.jpg" alt="person">
+
+                    <blockquote>"Winona Ryder was born on a farm on the outskirts of Winona, MN. In 2020, she returned
+                        home to creative direct a photo essay of the town and the people who live there. Squarespace
+                        lets Winona display her photos and sell copies of the book she creative directed"</blockquote>
+                    <cite>- PaRdis</cite>
+                </li>
+
+                <li>
+                    <img src="images/portfolio-098472a512c81c6f53017dd5bb17d6f3.jpg" alt="person">
+
+                    <blockquote>"I want people to visit our website and experience something different, because that’s
+                        what we do at our restaurant. I wanted it to be democratic and usable. It’s very approachable
+                        but it’s also fun."</blockquote>
+                    <cite>- AliReZa</cite>
+                </li>
+
+                <li>
+                    <img src="images/https _specials-images.forbesimg.com_imageserve_5fd4bc2a42b56d432a2d9d84_0x0.jpg"
+                        alt="person">
+
+                    <blockquote>Finding a platform like Squarespace that allows you to produce something very
+                        professional looking is really important.</blockquote>
+                    <cite>- PaRisa</cite>
+                </li>
+            </ul>
+    </section>
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-left">
+                <a name="contact"></a>
+                <h2>تماس با ما</h2>
+
+                <form action="">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your name">
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Example@gmail.com">
+
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+
+                    <input type="submit" class="send-message-cta" value="send message">
+                </form>
+            </div>
+            <div class="contact-right">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d221879.7790770652!2d52.39292854239798!3d29.665501598571115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3fb20d0c8c85f2e3%3A0x6d0c5b8aef6b4cf6!2sShiraz%2C%20Fars%20Province%2C%20Iran!5e0!3m2!1sen!2s!4v1626684202442!5m2!1sen!2s"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+
+        </div>
+    </section>
+
+    </div>
+
+    <script>
+
+        const mobileBtn = document.getElementById('mobile-cta')
+        nav = document.querySelector('nav');
+        mobileBtnExit = document.getElementById('mobile-exit')
+
+        mobileBtn.addEventListener('click', () => {
+            nav.classList.add('menu-btn')
+        })
+
+        mobileBtnExit.addEventListener('click', () => {
+            nav.classList.remove('menu-btn')
+        })
+
+
+
+    </script>
+
+</body>
+
+</html>

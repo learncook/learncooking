@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>کافه مهربان</title>
+    <link rel="icon" type="image/svg" href="images/icon.svg"/>   
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="navbar">
+       <div class="container">
+           <a class="logo" href="index.html">Learn<span>Cooking</span></a>
+
+           <img id="mobile-cta" class="mobile-menu" src="images/menu1.svg" alt="Open Navigation">
+            
+           <nav>
+                <img id="mobile-exit" class="mobile-menu-exit" src="images/exit6.svg" alt="Close Navigation">
+
+               <ul class="primary-nav">
+                   <li class="current"><a href="index.html">صفحه اصلی</a></li>
+                   <li><a href="about.html">درباره ما</a></li>
+                   <li><a href="#">خرید</a></li>
+                   <li><a href="gallery.html">گالری عکس</a></li>
+               </ul>
+
+               <ul class="secondary-nav">
+                <li><a href="#">تماس با ما</a></li>
+                <li class="GO-premium-cta"><a href="sign up.html">ثبت نام/عضویت</a></li>
+            </ul>
+           </nav>
+       </div> 
+    </div>
+
+    <section class="profile-section">
+        <div class="container">
+            <div class="texthead">
+                <h2>Helping Millions Grow Better.</h2>
+            </div>
+
+            <img src="images/IMG_20200425_155648_694.jpg" alt="cooking-vegetables">
+
+            <ul>
+
+                <li>
+                    <h2>چرا ما</h2>
+                    <p>بدون شک ما در عصری زندگی می‌کنیم که رقابتی فشرده و گاه نفس‌گیر در عرصه‌های حرفه‌ای به چشم می‌خورد. ما نیز به استقبال این رقابت‌ها رفته و آنها را به فال نیک می‌گیریم. تیم کافه مهربان اعتقاد دارد که فقط در سایه رقابتی سالم مشتری می‌تواند به کیفیت مطلوب خدمات دست پیدا کند. ما می‌خواهیم بر مبنای برنامه‌ریزی، تخصص و علاقه خود قضاوت شویم و با فراهم نمودن ضمانت خدمات حرفه‌ای اطمینان مشتری را جلب نماییم</p>
+                </li>
+
+                <li>
+                    <h2>ما چه کسانی هستیم؟</h2>
+                    <p>در کافه رستوران خانگی مهربان، ما تمرکز خود را روی درست کردن دسر ها و غذاهایی کرده ایم که شما با خوردن این غذا ها، دقیقا طعم و بوی کافه و رستوران ها را حس کنید
+                        .اگر با درست کردن غذاهای پیشنهادی ما، لذت میبرید، لطفا آدرس سایت ما را به دوستان خود به اشتراک بگذارید
+                        راه های ارتباطی با ما و هرگونه انتقاد یا پیشنهاد در تماس با ما
+                        از لطف شما برای انتخاب سایت ما، سپاسگزاریم و امیدواریم که بتوانیم، نیاز های شما را برآورده کنیم
+                        اگر به دنبال دستور خاصی از غذا میگردید، از طریق تماس با ما، با ما ارتباط برقرار کنید تا بتوانیم نیاز شما را در کمترین زمان ممکن برآورده کنیم
+                        </p>                    
+                </li>
+            </ul>
+        </div>
+    </section>
+    
+    <script>
+
+        const mobileBtn = document.getElementById('mobile-cta')
+            nav = document.querySelector('nav');
+            mobileBtnExit = document.getElementById('mobile-exit')
+
+        mobileBtn.addEventListener('click', () => {
+            nav.classList.add('menu-btn')
+        })
+
+        mobileBtnExit.addEventListener('click', () => {
+            nav.classList.remove('menu-btn')
+        })
+
+
+
+    </script>
+</body>
+</html>
